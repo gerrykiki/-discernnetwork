@@ -3,8 +3,8 @@
 Import class to project<br>
 
 
-<html> // Tab开头
-    <title>Reachability *rech = [Reachability reachabilityWithHostName:@"www.apple.com"];<br>
+
+Reachability *rech = [Reachability reachabilityWithHostName:@"www.apple.com"];<br>
 NetworkStatus netStatus = [rech currentReachabilityStatus];<br>
 if (netStatus == NotReachable) {<br>
 	return @"No network";<br>
@@ -29,5 +29,3 @@ else if (netStatus == kReachableVia2G){<br>
 	return @"Error";<br>
 	//error<br>
 }
-</title>
-</html> // 四个空格开头
